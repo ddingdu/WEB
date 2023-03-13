@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(209, 227, 248);
+    height: 300px;
+
+    display: flex;
+    /* 가로로 위에서 부터 쌓여있다가 
+    display: flex 주면 세로로 같은 높이로 왼쪽부터 쌓임 */
+
+    justify-content: center;
+    align-items: center;
+
+    /* align-items: baseline;*/
+    
+}
+
+.item {
+    background-color: #f4ff91;
+    border: 1px solid gray;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.grow {
+    flex-grow: 
+}
+/* .big {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 10px;
+} */

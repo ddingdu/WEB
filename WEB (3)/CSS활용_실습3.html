@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .top-box {
+      width: 400px;
+      height: 30px;
+      border: 1px solid red;
+      border-radius: 5px;
+      background-color: red;
+      color: white;
+			padding: 20px;
+      display: flex;
+			align-items: center;
+      /* justify-content: space-between; */
+    }
+
+    .title {
+      width: 400px;
+      height: 50px;
+      padding: 10px;
+      font-size: 30px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+			align-items: center;
+    }
+    
+    .main > hr{
+      border: double 1px blue;
+      margin-top: 0;
+
+    }
+    .main {
+      width: 400px;
+      height: 400px;
+      border: 1px solid gray;
+      border-radius: 5px;  
+      background-color: white;
+      padding: 20px;
+    }
+
+
+    .box {
+      margin: 20px;
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+
+    .block {
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 3px;
+        border: 1px solid lightgray;
+    }
+
+
+    .footline {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 20px;
+      font-weight: 50;
+      font-size: 14px;
+    }
+    .foot-left {
+      display: flex;
+    }
+    .signin-box {
+      height: 30px;
+      background-color: #fff;
+      color: white;
+      line-height: 30px;
+      padding: 5px;
+      margin: 20px;
+      margin-top: 0;
+      border-radius: 5px;
+      font-weight: 100;
+      font-style: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-content">
+    <div class="top-box">lnvalid Login or password</div>
+    <div class="title">SSAFY 전용 Gitlab 시스템</div>
+    <!-- <hr align="left" margin-left="0" width="440"></div> -->
+  </div>
+  <div class="main">
+      <div class="main-name">Sign in</div>
+      <hr>
+      <div class="box">
+        <div>Username or Email</div>
+        <div class="block"></div>
+      </div>
+      <div class="box">
+        <div>password</div>
+        <div class="block"></div>
+      </div>
+      <div class="footline">
+        <div class="foot-left"><input type="checkbox">
+          <p>Remember me</p>
+      </div>
+      <div><a href="">Forget your password?</a></div>
+  </div>
+<div class="signin-box">sign in</div>
+
+</body>
+</html>

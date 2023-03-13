@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .large-box {
+      height: 400px;
+      width: 400px;
+
+      border: 2px solid black;
+      /*
+      border-width: ;
+      border-style: ;
+      border-color: ;
+      */
+    }
+
+    .midium-box {
+      /* height: 200px;
+      width: 200px;
+      border: 2px dashed red; */
+
+      /* 부모 요소의 크기 기준으로 상대 크기 설정 ==> 상속 받은건 아님*/
+      height: 50%;
+      width: 50%;
+      border: 2px dashed red;
+
+    }
+
+    .small-box {
+      height: 100px;
+      width: 100px;
+      border: 2px dotted blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="large-box">
+    <div class="midium-box">
+      <div class="small-box">
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
